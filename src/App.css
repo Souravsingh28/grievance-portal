@@ -1,0 +1,70 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f6;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container, .complaint-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.4);
+  border: 2px solid #ff69b4;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #d63384;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ff69b4;
+  resize: vertical;
+}
+
+button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #d63384;
+}
+
+.thank-you {
+  text-align: center;
+  color: #c2185b;
+  font-size: 20px;
+  margin-top: 20px;
+  background: #ffe0ec;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px dashed #ff69b4;
+}
+
+.complaint-history {
+  margin-top: 30px;
+}
+
+.complaint-entry {
+  border: 1px dashed #ff69b4;
+  background: #fff8fc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
